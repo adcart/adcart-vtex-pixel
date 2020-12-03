@@ -1,0 +1,38 @@
+{
+  "name": "adcart",
+  "vendor": "adcartbr",
+  "version": "0.0.1",
+  "title": "Integração AdCart",
+  "description": "Integre sua loja com a AdCart e recupere carrinhos abandonados anunciando em nossos sites parceiros.",
+  "billingOptions": {
+    "termsURL": "https://www.adcart.com.br/termos",
+    "support": {
+      "url": "https://www.adcart.com.br/"
+    },
+    "free": true,
+    "type": "free",
+    "availableCountries": [
+      "*"
+    ]
+  },
+  "builders": {
+    "react": "3.x",
+    "pixel": "0.x",
+    "store": "0.x"
+  },
+  "dependencies": {
+    "vtex.pixel-interfaces": "1.x"
+  },
+  "settingsSchema": {
+    "title": "AdCart",
+    "type": "object",
+    "properties": {
+      "advertiserId": {
+        "title": "ID Da conta",
+        "description": "ID da sua conta na AdCart.",
+        "type": "string"
+      }
+    }
+  },
+  "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
+}
