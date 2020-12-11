@@ -4,7 +4,7 @@
 
     var advertiserId = "{{settings.advertiserId}}";
     if (!appId) {
-      console.error('Error: Você precisa definir .');
+      console.error('AdCart erro: Você precisa colocar seu ID nas configurações do App no admin do Vtex.');
       return
     }else{
       var s = document.createElement('script');
@@ -12,6 +12,8 @@
       s.async = true;
       s.defer = true;
       s.src = 'https://adserver.adcart.com.br/files/v1/advertiser?id='+ advertiserId + '&store=vtex';
+
+      document.getElementsByTagName('head')[0].appendChild(s);
     }
   })()
 </script>
