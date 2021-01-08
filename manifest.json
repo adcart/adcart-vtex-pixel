@@ -24,7 +24,7 @@
     "vtex.pixel-interfaces": "1.x"
   },
   "settingsSchema": {
-    "title": "AdCart",
+    "title": "adcart",
     "type": "object",
     "properties": {
       "advertiserId": {
