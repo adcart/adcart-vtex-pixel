@@ -1,11 +1,15 @@
 {
-  "name": "",
-  "headline": "",
-  "overview": "",
-  "features": [],
+  "name": "Adcart",
+  "headline": "Integração Adcart",
+  "overview": "Recupere carrinhos abandonados anunciando automaticamente na rede de parceiros da Adcart.",
+  "features": [
+    "CPA",
+    "Recuperação por anúncios",
+    "Formato de algo impacto"
+  ],
   "additionalInformation": "",
-  "websiteURL": "https://vtex.com/",
+  "websiteURL": "https://adcart.com.br/",
   "support": {
-    "url": "https://support.vtex.com/hc/requests"
+    "url": "https://adcart.com.br/"
   }
 }

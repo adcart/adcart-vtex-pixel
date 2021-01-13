@@ -1,16 +1,11 @@
 <script>
-  console.log('HELLO FROM HEAD')
-  (function() {
-    
-    var advertiserId = "{{settings.advertiserId}}";
-    if (!advertiserId) {
-      console.error('Warning: No AdvertiserID is defined. Please configure it in the apps admin.');
-      return
-    }
+  var advertiserId = "{{settings.advertiserId}}";
+  if (!advertiserId) {
+    console.error('Warning: No AdvertiserID is defined. Please configure it in the apps admin.');
+  }
 
-    // Add script here
-    var s = document.createElement('script')
-    s.src = 'https://adserver.Adcart.com.br/files/v1/advertiser?store=vtex&id=' + advertiserId
-    document.head.appendChild(script)
-  })()
+  var s = document.createElement('script')
+  s.src = 'https://adserver.Adcart.com.br/files/v1/advertiser?store=vtex&id=' + advertiserId
+  s.async = true
+  document.head.appendChild(s)
 </script>

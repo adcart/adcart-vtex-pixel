@@ -1,13 +1,24 @@
 {
   "name": "adcart",
   "vendor": "adcartbr",
-  "version": "1.4.0-beta.0",
+  "version": "1.4.2",
   "title": "Integração Adcart",
   "description": "Integre sua loja com a Adcart e recupere carrinhos abandonados anunciando em nossos sites parceiros.",
   "builders": {
     "react": "3.x",
     "pixel": "0.x",
     "store": "0.x"
+  },
+  "billingOptions": {
+    "type": "free",
+    "availableCountries": ["BRA"],
+    "free": true,
+    "termsURL": "https://www.adcart.com.br/termos",
+    "support": {
+      "email": "rafael@adcart.com.br",
+      "url": "https://adcart.com.br",
+      "phone": "+55113042-6798"
+    }
   },
   "dependencies": {
     "vtex.pixel-interfaces": "1.x"
