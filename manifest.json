@@ -1,7 +1,7 @@
 {
   "name": "adcart",
   "vendor": "adcartbr",
-  "version": "3.0.0-beta.0",
+  "version": "0.0.2",
   "title": "Integração Adcart",
   "description": "Integre sua loja com a Adcart e recupere carrinhos abandonados anunciando em nossos sites parceiros.",
   "builders": {

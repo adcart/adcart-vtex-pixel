@@ -1,0 +1,16 @@
+{
+  "name": "Adcart",
+  "headline": "Adcart Integration",
+  "overview": "Adcart is the only personalized retargeting platform with high impact formats. Recover users who have abandoned your ecommerce store automatically advertising on Adcart's exclusive publisher network. For more information, visit the Adcart website (https://www.adcart.com.br/).",
+
+  "features": [
+    "Tracks VTEX IO native \"order placed\" event (vtex:orderPlaced)",
+    "Tracks VTEX IO native \"cart changed\" event (vtex:cartChanged)"
+  ],
+  "additionalInformation": "Please head over to the official docs to see advanced setup instructions.",
+  "websiteURL": "https://adcart.com.br/",
+  "support": {
+    "email": "rafael@adcart.com.br",
+    "url": "https://adcart.com.br/"
+  }
+}

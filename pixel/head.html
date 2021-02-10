@@ -1,11 +1,11 @@
 <script>
   var advertiserId = "{{settings.advertiserId}}";
   if (!advertiserId) {
-    console.error('Warning: No AdvertiserID is defined. Please configure it in the apps admin.');
+    console.error('Warning: No AdCart AdvertiserID defined. Please configure it in the apps admin.');
+  }else{
+    var s = document.createElement('script')
+    s.src = 'https://adserver.Adcart.com.br/files/v1/advertiser?store=&id=' + advertiserId
+    s.async = true
+    document.head.appendChild(s)
   }
-
-  var s = document.createElement('script')
-  s.src = 'https://adserver.Adcart.com.br/files/v1/advertiser?store=vtex&id=' + advertiserId
-  s.async = true
-  document.head.appendChild(s)
 </script>

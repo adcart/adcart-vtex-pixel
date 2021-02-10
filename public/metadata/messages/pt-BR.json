@@ -1,15 +1,15 @@
 {
   "name": "Adcart",
   "headline": "Integração Adcart",
-  "overview": "Recupere carrinhos abandonados anunciando automaticamente na rede de parceiros da Adcart.",
+  "overview": " Adcart é a única plataforma de retargeting personalizado com formatos de alto impacto. Recupere usuários que abandonaram sua loja anunciando automaticamente na rede de parceiros exclusiva da Adcart. Para mais informações visite o site da Adcart (https://www.adcart.com.br/).",
   "features": [
-    "CPA",
-    "Recuperação por anúncios",
-    "Formato de algo impacto"
+    "Rastreia o evento \"pedido colocado\" nativo VTEX IO (vtex: orderPlaced)",
+    "Rastreia o evento VTEX IO nativo \"mudança no carrinho\" (vtex: cartChanged)"
   ],
-  "additionalInformation": "",
+  "additionalInformation": "Confira a documentação do app para instruções detalhadas de instalação.",
   "websiteURL": "https://adcart.com.br/",
   "support": {
+    "email": "rafael@adcart.com.br",
     "url": "https://adcart.com.br/"
   }
 }
